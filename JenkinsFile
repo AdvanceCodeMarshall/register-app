@@ -1,0 +1,7 @@
+pipeline {
+    agent { label 'CU-Jenkins-Agent' }
+    tools {
+        jdk 'Java17'
+        maven 'Maven3'
+    }
+}
